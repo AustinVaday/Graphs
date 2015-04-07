@@ -1,0 +1,92 @@
+*******************************************************
+* PROGRAMMED BY : Austin Vaday
+* STUDENT ID    : 354687
+* CLASS         : CS1D : TTH-5:30-7:20 pm
+* ASSIGNMENT #10: Undirected Graph and DFS
+*******************************************************
+
+THE ADJACENCY MATRIX:
+=================================================================
+(too big, SEE ATTACHMENT)
+
+VERTEX INFO:
+There exists 12 vertices.
+The vertex Seattle has index: 0
+The vertex San Fran has index: 1
+The vertex Chicago has index: 2
+The vertex Denver has index: 3
+The vertex Los Ang has index: 4
+The vertex Kansas C has index: 5
+The vertex Dallas has index: 6
+The vertex Boston has index: 7
+The vertex New York has index: 8
+The vertex Atlanta has index: 9
+The vertex Houston has index: 10
+The vertex Miami has index: 11
+
+EDGE INFO:
+There exists 23 edges.
+The edge connecting Seattle    and San Fran   has weight: 807
+The edge connecting Seattle    and Chicago    has weight: 2097
+The edge connecting Seattle    and Denver     has weight: 1331
+The edge connecting San Fran   and Denver     has weight: 1267
+The edge connecting San Fran   and Los Ang    has weight: 381
+The edge connecting Los Ang    and Denver     has weight: 1015
+The edge connecting Los Ang    and Kansas C   has weight: 1663
+The edge connecting Los Ang    and Dallas     has weight: 1435
+The edge connecting Denver     and Chicago    has weight: 1003
+The edge connecting Denver     and Kansas C   has weight: 599
+The edge connecting Chicago    and Boston     has weight: 983
+The edge connecting Chicago    and New York   has weight: 787
+The edge connecting Chicago    and Kansas C   has weight: 533
+The edge connecting Kansas C   and Dallas     has weight: 496
+The edge connecting Kansas C   and New York   has weight: 1260
+The edge connecting Kansas C   and Atlanta    has weight: 864
+The edge connecting Dallas     and Atlanta    has weight: 781
+The edge connecting Dallas     and Houston    has weight: 239
+The edge connecting Houston    and Atlanta    has weight: 810
+The edge connecting Houston    and Miami      has weight: 1187
+The edge connecting Boston     and New York   has weight: 214
+The edge connecting New York   and Atlanta    has weight: 888
+The edge connecting Atlanta    and Miami      has weight: 661
+=================================================================
+DFS: 
+Vertex visited: Los Ang
+Vertex visited: San Fran
+Vertex visited: Seattle
+Vertex visited: Denver
+Vertex visited: Kansas C
+Vertex visited: Dallas
+Vertex visited: Houston
+Vertex visited: Atlanta
+Vertex visited: Miami
+Vertex visited: New York
+Vertex visited: Boston
+Vertex visited: Chicago
+
+DISCOVERY EDGES:
+The edge that connects    Seattle and   San Fran with weight: 807 is a discovery edge.
+The edge that connects    Seattle and     Denver with weight: 1331 is a discovery edge.
+The edge that connects   San Fran and    Los Ang with weight: 381 is a discovery edge.
+The edge that connects     Denver and   Kansas C with weight: 599 is a discovery edge.
+The edge that connects    Chicago and     Boston with weight: 983 is a discovery edge.
+The edge that connects   Kansas C and     Dallas with weight: 496 is a discovery edge.
+The edge that connects     Dallas and    Houston with weight: 239 is a discovery edge.
+The edge that connects    Houston and    Atlanta with weight: 810 is a discovery edge.
+The edge that connects     Boston and   New York with weight: 214 is a discovery edge.
+The edge that connects   New York and    Atlanta with weight: 888 is a discovery edge.
+The edge that connects    Atlanta and      Miami with weight: 661 is a discovery edge.
+
+BACK EDGES:
+The edge that connects    Seattle and    Chicago with weight: 2097 is a back edge.
+The edge that connects   San Fran and     Denver with weight: 1267 is a back edge.
+The edge that connects    Los Ang and     Denver with weight: 1015 is a back edge.
+The edge that connects    Los Ang and   Kansas C with weight: 1663 is a back edge.
+The edge that connects    Los Ang and     Dallas with weight: 1435 is a back edge.
+The edge that connects     Denver and    Chicago with weight: 1003 is a back edge.
+The edge that connects    Chicago and   New York with weight: 787 is a back edge.
+The edge that connects    Chicago and   Kansas C with weight: 533 is a back edge.
+The edge that connects   Kansas C and   New York with weight: 1260 is a back edge.
+The edge that connects   Kansas C and    Atlanta with weight: 864 is a back edge.
+The edge that connects     Dallas and    Atlanta with weight: 781 is a back edge.
+The edge that connects    Houston and      Miami with weight: 1187 is a back edge.
